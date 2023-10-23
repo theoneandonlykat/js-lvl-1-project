@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(61, 122, 175);
+    font-family: Arial;
+}
+footer {
+    font-size: 20px;
+    bottom: 10px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#titlebody {
+    text-align: center;
+}
+#title {
+    font-size: 30px;
+}
+#blurb {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 35px;
+}
+a:link, a:visited {
+    color: black;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    grid-template-rows: auto;
+    grid-template-areas: 'log main clock';
+}
+#logs {
+    grid-area: log;
+}   
+#mains {
+    grid-area: main;
+}
+#clocks {
+    grid-area: clock;
+}
+h1 {
+    text-align: center;
+}
+#lists {
+    text-align: center;
+    list-style-position: inside;
+}
+#headers {
+    font-size: 50px;
+}
+.gaming {
+    font-size: 30px;
+    text-align: center;
+}
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

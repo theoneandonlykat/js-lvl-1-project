@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codebreaker</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src="main.js"></script>
+    </head>
+    <body onload = "initialize()">
+       <div id = "container">
+        <div id = "logs">
+            <h1 id = "headers">
+                Code Logs
+            </h1>
+            <ol class = "gaming" id = "lists">
+            </ol>
+        </div>
+        <div id = "mains">
+            <h1 id = "headers">
+                Codebreaker
+            </h1>
+            <p class = "gaming"  id = "currentCode">Current Code:</p>
+            <div id = "wrapper">
+                <button class = "gaming"  onclick = "guessOne()">1</button>
+                <button class = "gaming"  onclick = "guessTwo()">2</button>
+                <button class = "gaming"  onclick = "guessThree()">3</button>
+                <button class = "gaming"  onclick = "clearGuess()">Clear</button>
+                <button class = "gaming"  onclick = "checkGuess()">Check</button>
+            </div>
+            <p class = "gaming"  id = "fin"></p>
+            <p class = "gaming"  id = "playAgain">Wanna play again? Click <a href = "game.html">here</a></p>
+        </div>
+        <div id = "clocks">
+            <h1 id = "headers">
+                Clock
+            </h1>
+            <p class = "gaming"  id = "timerAmount">Turns Remaining:</p>
+        </div>
+       </div>
+       <footer>
+        <a href = "index.html">Back</a><br/>
+        Kevin Tsang &copy; 2023
+    </footer>
+    </body>
+</html>
